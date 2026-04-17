@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 
 // --- ÉCRAN DE CONNEXION ---q
 
@@ -43,7 +44,7 @@ class LoginPage extends StatelessWidget {
                 // NAVIGATION : Aller vers l'accueil
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const HomePage()),
+                  MaterialPageRoute(builder: (context) => HomePage()),
                 );
               },
               child: const Text('Se connecter'),
