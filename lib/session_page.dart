@@ -120,4 +120,5 @@ ElevatedButton(
     );
   },
   child: const Text('ARRÊTER LA SESSION', style: TextStyle(color: Colors.white)),
-),
+)
+//ElevatedButton
